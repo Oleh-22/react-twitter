@@ -1,7 +1,12 @@
-import React from "react";
+import Page from "./component/page";
+import PostList from "./container/postlist";
 
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <Page>
+      <PostList />
+    </Page>
+    );
 }
 
 export default App;
